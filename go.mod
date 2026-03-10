@@ -1,0 +1,3 @@
+module PROBLEM-SOLVING
+
+go 1.25.6
