@@ -1,7 +1,5 @@
 package problem
 
-import "fmt"
-
 func replaceElements(arr []int) []int {
 
 	for i := 0; i < len(arr); i++ {
@@ -23,11 +21,4 @@ func replaceElements(arr []int) []int {
 	}
 
 	return arr
-}
-
-func main() {
-	var arr = []int{2, 4, 5, 3, 1, 2}
-	result := replaceElements(arr)
-	fmt.Println(result)
-
 }

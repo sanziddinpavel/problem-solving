@@ -10,12 +10,3 @@ func occurrence(s string) map[rune]int {
 	}
 	return counts
 }
-
-func main2() {
-
-	result := occurrence("pavellabib")
-
-	for letter, count := range result {
-		fmt.Printf("%c: %d\n", letter, count)
-	}
-}
